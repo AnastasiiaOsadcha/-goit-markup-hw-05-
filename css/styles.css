@@ -156,6 +156,11 @@ body {
   padding-left: 0px;
 }
 
+.navigation-list .navigation-list-link:hover,
+.navigation-list .navigation-list-link:focus {
+  color: #2196f3;
+}
+
 .navigation {
   display: flex;
   align-items: center;
@@ -165,7 +170,7 @@ body {
 .footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .studioh::after,
@@ -265,6 +270,8 @@ body {
   height: 50px;
   text-decoration: none;
   border: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .modal-btn:hover,
@@ -273,6 +280,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
+  cursor: pointer
 }
 
 .backdrop {
@@ -910,6 +918,8 @@ fill: white;
 
 .infoadress {
   display: block;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer > .container {
@@ -918,6 +928,7 @@ fill: white;
 
 .footer-join {
   margin-left: 70px;
+  padding-top: 72px;
 }
 
 .footer .web-studio {
