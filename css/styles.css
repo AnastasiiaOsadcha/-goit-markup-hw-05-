@@ -112,10 +112,6 @@ body {
   display: flex;
 }
 
-/* .header-contact-link:not(:last-child) {
-  margin-right: 30px;
-} */
-
 .header-contact {
   padding-left: 0px;
   margin: 0px;
@@ -236,11 +232,15 @@ body {
   color: #757575;
 }
 
+.header-contact-link:first-child {
+  margin-right: 30px;
+}
+
 .header-contact-icon {
   display: flex;
   align-items: center;
+  
   justify-content: space-between;
-  margin-left: 30px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
