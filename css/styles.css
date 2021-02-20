@@ -717,7 +717,7 @@ fill: white;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-}
+  }
 
 .work-btn-description:hover,
 .work-btn-description:focus {
@@ -802,6 +802,7 @@ fill: white;
   color: var(--bodycolor);
   text-decoration: none;
   border: none;
+  border-radius: 4px;
   padding: 6px 20px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
